@@ -1,0 +1,25 @@
+package robot;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class RobotTest {
+
+	@Test
+	void testFire() {
+		Robot r=new Robot("Ron");
+		Robot t=new Robot("Ben");
+		t.fire(r);
+		Assert.assertTrue(r.Live()==8);
+		
+	}
+
+	@Test
+	void testToString() {
+		fail("Not yet implemented");
+	}
+	
+
+}
