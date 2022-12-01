@@ -1,7 +1,5 @@
 package robot;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +16,9 @@ class RobotTest {
 
 	@Test
 	void testToString() {
-		fail("Not yet implemented");
+		Robot r=new Robot("ace");
+		String s="Hello Guys";
+		Assert.assertEquals("Hello Guys", r.toString(s));
 	}
 	
 

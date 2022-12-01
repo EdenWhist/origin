@@ -11,7 +11,7 @@ class RobotTestTest {
 		Robot t=new Robot("Tork");
 		r.live=0;
 		t.fire(r);
-		Assert.assertTrue(r.live==0);
+		Assert.assertEquals(0,r.Live());
 	}
 
 }

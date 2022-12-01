@@ -20,5 +20,8 @@ public class Fighter extends Robot{
 			
 		}
 	}
+	public String toString(String s) {
+		return s;
+	}
 
 }

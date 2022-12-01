@@ -33,5 +33,8 @@ public class Robot {
 			System.out.println("Robot "+name+" dead");
 		}
 	}
+	public String toString(String s) {
+		return s;
+	}
 
 }

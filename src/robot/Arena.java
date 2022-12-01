@@ -30,4 +30,7 @@ public class Arena {
 			System.out.println("Robot "+a.Name()+ "  Won");
 		}
 	}
+	public String toString(String s) {
+		return s;
+	}
 }
