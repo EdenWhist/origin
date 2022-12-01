@@ -22,12 +22,12 @@ public class Arena {
 			if(b.Live() >0) {b.fire(a);b.isDead();}
 		}
 		if(b.Live() >0) {
-			System.out.println("Robot "+a.name+" is dead");
-			System.out.println("Robot "+b.Name()+" win");
+			System.out.println("Fighter "+a.name+" is dead");
+			System.out.println("Fighter "+b.Name()+" win");
 		}
 		else{
-			System.out.println("Robot "+b.name+" is dead");
-			System.out.println("Robot "+a.Name()+ "  Won");
+			System.out.println("Fighter "+b.name+" is dead");
+			System.out.println("Fighter "+a.Name()+ "  Won");
 		}
 	}
 	public String toString(String s) {

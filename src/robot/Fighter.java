@@ -20,6 +20,14 @@ public class Fighter extends Robot{
 			
 		}
 	}
+	public void isDead() {
+		if(live>0) {
+			System.out.println("Fighter "+name+" still alive: "+live);
+		}
+		else {
+			System.out.println("Fighter "+name+" dead");
+		}
+	}
 	public String toString(String s) {
 		return s;
 	}

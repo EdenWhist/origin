@@ -25,6 +25,7 @@ public class Robot {
 			b.live-=2;
 			System.out.println("Robot "+b.name+" a été touché par le robot "+name);
 	}
+	
 	public void isDead() {
 		if(live>0) {
 			System.out.println("Robot "+name+" still alive");
